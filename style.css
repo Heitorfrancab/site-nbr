@@ -10,4 +10,19 @@ header{
 header .logo{
     width: 96px;
     height: 124px;
+    display: inline-block;
+}
+
+header h1{
+    display: inline-block;
+    font-family: "karantina";
+    font-size: 128px;
+}
+
+header li{
+    display: inline-block;
+    font-family: "Karantina";
+    font-weight: lighter;
+    font-size: 96px;
+    margin-left: 29px;
 }
