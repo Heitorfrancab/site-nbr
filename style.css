@@ -9,11 +9,14 @@ header{
     background-color: #42644B;
 }
 
-header .caixa{
+header .caixa, main .iicaixa, main .iiicaixa, footer .ivcaixa {
     width: 968px;
-    height: 124px;
     position: relative;
     margin: 0 auto;
+}
+
+.caixa{
+    height: 124px;
 }
 
 header .logo{
@@ -46,4 +49,85 @@ header li{
     font-weight: lighter;
     font-size: 96px;
     margin-left: 29px;
+}
+
+main{
+    margin: 135px 0;
+}
+
+main .logo2{
+    width: 298px;
+    height: 381px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+}
+
+h2{
+    display: inline-block;
+    font-family: "karantina";
+    font-size: 96px;
+    position: relative;
+    vertical-align: top;
+}
+
+.league{
+    margin-left: 29px;
+}
+
+.league li{
+    font-family: "Karantina";
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+.profile{
+    width: 371px;
+    height: 371px;
+    display: inline-block;
+}
+
+main .iiicaixa{
+    margin-top: 135px;
+}
+
+h3{
+    display: inline-block;
+    font-family: "karantina";
+    font-size: 96px;
+    position: absolute;
+    right: 0;
+}
+
+.me{
+    display: inline-block;
+    position: relative;
+    margin: 29px 0 0 185px;
+}
+
+.me li{
+    font-family: "Karantina";
+    font-weight: lighter;
+    font-size: 64px;
+}
+
+h4{
+    text-align: center;
+    font-family: "karantina";
+    font-size: 123px;
+    margin-top: 135px;
+}
+
+footer{
+    margin-top: 135px;
+    padding: 135px 0;
+    align-items: center;
+}
+
+footer img{
+    display: block;
+    width: 185px;
+    height: 237px;
+    margin: 0 auto;
 }
