@@ -1,5 +1,7 @@
 body{
-    background-color: ;
+    background-color: #4d4d4d;
+    width: 1440;
+    height: 2048;
 }
 
 header{
@@ -7,16 +9,35 @@ header{
     background-color: #42644B;
 }
 
+header .caixa{
+    width: 968px;
+    height: 124px;
+    position: relative;
+    margin: 0 auto;
+}
+
 header .logo{
     width: 96px;
     height: 124px;
     display: inline-block;
+    position: relative;
+    vertical-align: top;
 }
 
 header h1{
     display: inline-block;
     font-family: "karantina";
     font-size: 128px;
+    margin-left: 29px;
+    position: relative;
+    vertical-align: top;
+}
+
+header ul{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    margin: 25px 0;
 }
 
 header li{
