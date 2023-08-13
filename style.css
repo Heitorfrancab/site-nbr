@@ -36,11 +36,16 @@ header h1{
     vertical-align: top;
 }
 
-header ul{
+header nav{
     display: inline-block;
     position: absolute;
     right: 0;
     margin: 25px 0;
+}
+
+nav a{
+    color: #000000;
+	text-decoration: none;
 }
 
 header li{
