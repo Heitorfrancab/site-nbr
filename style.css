@@ -136,3 +136,18 @@ footer img{
     height: 237px;
     margin: 0 auto;
 }
+
+.teams{
+    width: 381px;
+    height: 381px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    vertical-align: top;
+}
+
+.jersey{
+    display: block;
+    margin: 0 auto;
+    margin-top: 135px;
+}
